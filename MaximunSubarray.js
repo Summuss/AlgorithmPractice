@@ -35,8 +35,8 @@ function maxSubarray(array, leftIndex, rightIndex) {
         };
     } else {
         var middle = Math.floor((leftIndex + rightIndex) / 2);
-        var leftMax = maxSubarray.arguments.callee(array, leftIndex, middle);
-        var rightMax = maxSubarray.arguments.callee(array, middle + 1, rightIndex);
+        var leftMax = arguments.callee(array, leftIndex, middle);
+        var rightMax = arguments.callee(array, middle + 1, rightIndex);
         var crossingMax = maxSubarrayCrossing(array, leftIndex, rightIndex);
         switch (true) {
             case leftMax.sum >= rightMax.sum && leftMax.sum >= crossingMax.sum:
