@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-F:/Datas/CodeProject/AlgorithmPractice/C++/test.cpp
+F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+
+F:/Datas/CodeProject/AlgorithmPractice/C++/main.cpp
 iostream
 -
+head.h
+F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+
+F:/Datas/CodeProject/AlgorithmPractice/C++/test.cpp
 

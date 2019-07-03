@@ -122,6 +122,33 @@ c++practice/fast:
 	$(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/build
 .PHONY : c++practice/fast
 
+C++/main.obj: C++/main.cpp.obj
+
+.PHONY : C++/main.obj
+
+# target to build an object file
+C++/main.cpp.obj:
+	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/main.cpp.obj
+.PHONY : C++/main.cpp.obj
+
+C++/main.i: C++/main.cpp.i
+
+.PHONY : C++/main.i
+
+# target to preprocess a source file
+C++/main.cpp.i:
+	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/main.cpp.i
+.PHONY : C++/main.cpp.i
+
+C++/main.s: C++/main.cpp.s
+
+.PHONY : C++/main.s
+
+# target to generate assembly for a file
+C++/main.cpp.s:
+	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/main.cpp.s
+.PHONY : C++/main.cpp.s
+
 C++/test.obj: C++/test.cpp.obj
 
 .PHONY : C++/test.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... c++practice
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... C++/main.obj
+	@echo ... C++/main.i
+	@echo ... C++/main.s
 	@echo ... C++/test.obj
 	@echo ... C++/test.i
 	@echo ... C++/test.s

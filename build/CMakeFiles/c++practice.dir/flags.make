@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -D FREEGLUT_STATIC -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/c++practice.dir/includes_CXX.rsp
 
