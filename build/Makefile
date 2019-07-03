@@ -149,33 +149,6 @@ C++/main.cpp.s:
 	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/main.cpp.s
 .PHONY : C++/main.cpp.s
 
-C++/test.obj: C++/test.cpp.obj
-
-.PHONY : C++/test.obj
-
-# target to build an object file
-C++/test.cpp.obj:
-	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/test.cpp.obj
-.PHONY : C++/test.cpp.obj
-
-C++/test.i: C++/test.cpp.i
-
-.PHONY : C++/test.i
-
-# target to preprocess a source file
-C++/test.cpp.i:
-	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/test.cpp.i
-.PHONY : C++/test.cpp.i
-
-C++/test.s: C++/test.cpp.s
-
-.PHONY : C++/test.s
-
-# target to generate assembly for a file
-C++/test.cpp.s:
-	cd /d f:\Datas\CodeProject\AlgorithmPractice\build && $(MAKE) -f CMakeFiles\c++practice.dir\build.make CMakeFiles/c++practice.dir/C++/test.cpp.s
-.PHONY : C++/test.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +161,6 @@ help:
 	@echo ... C++/main.obj
 	@echo ... C++/main.i
 	@echo ... C++/main.s
-	@echo ... C++/test.obj
-	@echo ... C++/test.i
-	@echo ... C++/test.s
 .PHONY : help
 
 

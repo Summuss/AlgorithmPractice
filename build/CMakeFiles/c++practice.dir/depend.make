@@ -4,5 +4,3 @@
 CMakeFiles/c++practice.dir/C++/main.cpp.obj: ../C++/head.h
 CMakeFiles/c++practice.dir/C++/main.cpp.obj: ../C++/main.cpp
 
-CMakeFiles/c++practice.dir/C++/test.cpp.obj: ../C++/test.cpp
-
