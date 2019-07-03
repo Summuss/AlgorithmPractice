@@ -1,0 +1,7 @@
+[
+{
+  "directory": "F:/Datas/CodeProject/AlgorithmPractice/build",
+  "command": "g++     -std=c++11 -D FREEGLUT_STATIC -g   -o CMakeFiles\\c++practice.dir\\C++\\test.cpp.obj -c F:\\Datas\\CodeProject\\AlgorithmPractice\\C++\\test.cpp",
+  "file": "F:/Datas/CodeProject/AlgorithmPractice/C++/test.cpp"
+}
+]
