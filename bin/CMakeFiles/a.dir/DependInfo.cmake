@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "F:/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp" "F:/Datas/CodeProject/AlgorithmPractice/bin/CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj"
   "F:/Datas/CodeProject/AlgorithmPractice/C++/main.cpp" "F:/Datas/CodeProject/AlgorithmPractice/bin/CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj"
+  "F:/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp" "F:/Datas/CodeProject/AlgorithmPractice/bin/CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

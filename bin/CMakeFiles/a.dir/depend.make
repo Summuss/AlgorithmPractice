@@ -7,3 +7,6 @@ CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj: F:
 CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj: F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
 CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj: F:/Datas/CodeProject/AlgorithmPractice/C++/main.cpp
 
+CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj: F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj: F:/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp
+

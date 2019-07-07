@@ -176,6 +176,33 @@ F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s:
 	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s
 .PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s
 
+F_/Datas/CodeProject/AlgorithmPractice/C++/tools.obj: F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj
+
+.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.obj
+
+# target to build an object file
+F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj
+.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj
+
+F_/Datas/CodeProject/AlgorithmPractice/C++/tools.i: F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i
+
+.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.i
+
+# target to preprocess a source file
+F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i
+.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i
+
+F_/Datas/CodeProject/AlgorithmPractice/C++/tools.s: F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s
+
+.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.s
+
+# target to generate assembly for a file
+F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s
+.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +218,9 @@ help:
 	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/main.obj
 	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/main.i
 	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/main.s
+	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/tools.obj
+	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/tools.i
+	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/tools.s
 .PHONY : help
 
 

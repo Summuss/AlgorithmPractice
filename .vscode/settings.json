@@ -42,4 +42,7 @@
         "lisp": "sbcl --script",
         "kit": "kitc --run"
         },
+        "files.associations": {
+            "iostream": "cpp"
+        },
 }
