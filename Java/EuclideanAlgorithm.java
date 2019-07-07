@@ -1,3 +1,5 @@
+import com.sun.imageio.plugins.common.InputStreamAdapter;
+
 class EuclideanAlgorithm {
     public static long getGCD(long... arg) {
         if (arg.length < 2) {
@@ -10,7 +12,8 @@ class EuclideanAlgorithm {
             }
             if (arg[0] % arg[1] == 0) {
                 return arg[1];
-            } else {
+            }
+             else {
                 return getGCD(arg[1], arg[0] % arg[1]);
             }
         } else {
@@ -22,5 +25,12 @@ class EuclideanAlgorithm {
             return getGCD(arg1);
         }
 
+    }
+}
+
+class Test{
+    public static void main(String[]args){
+        System.out.println("sdf");
+        
     }
 }

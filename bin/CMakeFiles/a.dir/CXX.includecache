@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp
+head.h
+F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+
+F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+iostream
+-
+stdio.h
+-
+math.h
+-
+string
+-
+
+F:/Datas/CodeProject/AlgorithmPractice/C++/main.cpp
+head.h
+F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+

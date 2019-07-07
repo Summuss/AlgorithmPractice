@@ -1,8 +1,9 @@
-#include<iostream>
-#include"head.h"
-using namespace std;
-int main(){
-    cout<<abcd;
-    //dsfs
-    system("pause");
+#include "head.h"
+int main()
+{
+    string s;
+    cin>>s; 
+    cout<<s<<endl;
+    link_list_main();
 }
+

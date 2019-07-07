@@ -1,3 +1,0 @@
-F:/Datas/CodeProject/AlgorithmPractice/build/CMakeFiles/c++practice.dir
-F:/Datas/CodeProject/AlgorithmPractice/build/CMakeFiles/edit_cache.dir
-F:/Datas/CodeProject/AlgorithmPractice/build/CMakeFiles/rebuild_cache.dir
