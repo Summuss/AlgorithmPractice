@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp" "F:/Datas/CodeProject/AlgorithmPractice/bin/CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj"
-  "F:/Datas/CodeProject/AlgorithmPractice/C++/main.cpp" "F:/Datas/CodeProject/AlgorithmPractice/bin/CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj"
-  "F:/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp" "F:/Datas/CodeProject/AlgorithmPractice/bin/CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj"
+  "D:/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp" "D:/CodeProject/C++/AlgorithmPractice/bin/CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj"
+  "D:/CodeProject/C++/AlgorithmPractice/C++/main.cpp" "D:/CodeProject/C++/AlgorithmPractice/bin/CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj"
+  "D:/CodeProject/C++/AlgorithmPractice/C++/tools.cpp" "D:/CodeProject/C++/AlgorithmPractice/bin/CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "F:/Datas/CodeProject/AlgorithmPractice/.vscode/../c++"
+  "D:/CodeProject/C++/AlgorithmPractice/.vscode/../c++"
   )
 
 # Targets to which this target links.

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\cmake-3.9.0-rc3-win64-x64\cmake-3.9.0-rc3-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = "H:\Program Files\cmake-3.9.0-rc3-win64-x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\Program Files\cmake-3.9.0-rc3-win64-x64\cmake-3.9.0-rc3-win64-x64\bin\cmake.exe" -E remove -f
+RM = "H:\Program Files\cmake-3.9.0-rc3-win64-x64\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Datas\CodeProject\AlgorithmPractice\.vscode
+CMAKE_SOURCE_DIR = D:\CodeProject\C++\AlgorithmPractice\.vscode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Datas\CodeProject\AlgorithmPractice\bin
+CMAKE_BINARY_DIR = D:\CodeProject\C++\AlgorithmPractice\bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = F:\Datas\CodeProject\AlgorithmPractice\bin
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"F:\Program Files\cmake-3.9.0-rc3-win64-x64\cmake-3.9.0-rc3-win64-x64\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"H:\Program Files\cmake-3.9.0-rc3-win64-x64\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"F:\Program Files\cmake-3.9.0-rc3-win64-x64\cmake-3.9.0-rc3-win64-x64\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"H:\Program Files\cmake-3.9.0-rc3-win64-x64\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Datas\CodeProject\AlgorithmPractice\bin\CMakeFiles F:\Datas\CodeProject\AlgorithmPractice\bin\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Datas\CodeProject\AlgorithmPractice\bin\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,86 +122,86 @@ a/fast:
 	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/build
 .PHONY : a/fast
 
-F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.obj: F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj
+D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.obj: D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj
 
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.obj
-
-# target to build an object file
-F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj
-
-F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.i: F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.i
-
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.i
-
-# target to preprocess a source file
-F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.i:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.i
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.i
-
-F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.s: F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.s
-
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.s
-
-# target to generate assembly for a file
-F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.s:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.s
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.s
-
-F_/Datas/CodeProject/AlgorithmPractice/C++/main.obj: F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj
-
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.obj
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.obj
 
 # target to build an object file
-F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj
+D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj
 
-F_/Datas/CodeProject/AlgorithmPractice/C++/main.i: F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.i
+D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.i: D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.i
 
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.i
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.i
 
 # target to preprocess a source file
-F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.i:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.i
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.i
+D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.i:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.i
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.i
 
-F_/Datas/CodeProject/AlgorithmPractice/C++/main.s: F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s
+D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.s: D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.s
 
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.s
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.s
 
 # target to generate assembly for a file
-F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.s
+D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.s:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.s
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.s
 
-F_/Datas/CodeProject/AlgorithmPractice/C++/tools.obj: F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj
+D_/CodeProject/C++/AlgorithmPractice/C++/main.obj: D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj
 
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.obj
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.obj
 
 # target to build an object file
-F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj
+D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj
 
-F_/Datas/CodeProject/AlgorithmPractice/C++/tools.i: F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i
+D_/CodeProject/C++/AlgorithmPractice/C++/main.i: D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.i
 
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.i
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.i
 
 # target to preprocess a source file
-F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.i
+D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.i:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.i
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.i
 
-F_/Datas/CodeProject/AlgorithmPractice/C++/tools.s: F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s
+D_/CodeProject/C++/AlgorithmPractice/C++/main.s: D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s
 
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.s
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.s
 
 # target to generate assembly for a file
-F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s:
-	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s
-.PHONY : F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.s
+D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s
+
+D_/CodeProject/C++/AlgorithmPractice/C++/tools.obj: D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj
+
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.obj
+
+# target to build an object file
+D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj
+
+D_/CodeProject/C++/AlgorithmPractice/C++/tools.i: D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.i
+
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.i
+
+# target to preprocess a source file
+D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.i:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.i
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.i
+
+D_/CodeProject/C++/AlgorithmPractice/C++/tools.s: D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.s
+
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.s
+
+# target to generate assembly for a file
+D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.s:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.s
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.s
 
 # Help Target
 help:
@@ -212,15 +212,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... a
 	@echo ... edit_cache
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.obj
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.i
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.s
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/main.obj
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/main.i
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/main.s
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/tools.obj
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/tools.i
-	@echo ... F_/Datas/CodeProject/AlgorithmPractice/C++/tools.s
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.obj
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.i
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.s
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/main.obj
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/main.i
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/main.s
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/tools.obj
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/tools.i
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/tools.s
 .PHONY : help
 
 

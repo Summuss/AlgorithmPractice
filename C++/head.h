@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<string>
+#include<stdarg.h>
 #define VNAME(value) (#value)
 using namespace std;
 
@@ -23,5 +24,12 @@ template <typename T>
 void out(T var){
     cout<<var<<endl;
 }
+
+template <typename T>
+void outh(T var,string s)
+{
+    cout<<s<<": "<<var<<endl;
+}
+
 
 #endif

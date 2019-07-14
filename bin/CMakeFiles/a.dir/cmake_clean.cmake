@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp.obj"
-  "CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/main.cpp.obj"
-  "CMakeFiles/a.dir/F_/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp.obj"
+  "CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj"
+  "CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj"
+  "CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj"
   "a.pdb"
   "a.exe"
   "a.exe.manifest"

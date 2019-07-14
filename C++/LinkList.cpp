@@ -89,23 +89,23 @@ int get_linklist_elem(Node head, int i)
 Node merge_linklist(Node l1, Node l2)
 {
     Node l3;
+    l3.data=1;
+    l3.next=nullptr;
     Node *p1 = l1.next, *p2 = l2.next, *p3 = &l3;
     while (p1 && p2)
     {
         if (p1->data > p2->data)
         {
+            out("p3->next=p2");
             p3->next = p2;
         }
         else
         {
+            
+            out("p3->next=p1");
             p3->next = p1;
         }
         p3 = p3->next;
-        /**
-         * @description: 
-         * @param {type} 
-         * @return: 
-         */
         p1 = p1->next;
         p2 = p2->next;
     }
@@ -133,12 +133,11 @@ void link_list_main()
     init_linklist(l2);
     int a1[5]={1,3,5,8,9};
     int a2[3]={2,5,7};
-    create_linklist_array(l1,a1,5);
-    create_linklist_array(l2,a2,3);
     out_linklist(l1);
     out_linklist(l2);
     Node l3=merge_linklist(l1,l2);
-    out_linklist(l3);
-
-    
+    if(l3.next==nullptr)
+    {
+        out("l3.next=null");
+    }
 }

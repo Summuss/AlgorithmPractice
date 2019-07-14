@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/Datas/CodeProject/AlgorithmPractice/C++/LinkList.cpp
+D:/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp
 head.h
-F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+D:/CodeProject/C++/AlgorithmPractice/C++/head.h
 
-F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+D:/CodeProject/C++/AlgorithmPractice/C++/head.h
 iostream
 -
 stdio.h
@@ -19,12 +19,14 @@ math.h
 -
 string
 -
+stdarg.h
+-
 
-F:/Datas/CodeProject/AlgorithmPractice/C++/main.cpp
+D:/CodeProject/C++/AlgorithmPractice/C++/main.cpp
 head.h
-F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+D:/CodeProject/C++/AlgorithmPractice/C++/head.h
 
-F:/Datas/CodeProject/AlgorithmPractice/C++/tools.cpp
+D:/CodeProject/C++/AlgorithmPractice/C++/tools.cpp
 head.h
-F:/Datas/CodeProject/AlgorithmPractice/C++/head.h
+D:/CodeProject/C++/AlgorithmPractice/C++/head.h
 
