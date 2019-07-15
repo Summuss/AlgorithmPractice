@@ -11,8 +11,8 @@ void init_linklist(Node &head)
 }
 
 /**
- * @description: Í·²å·¨´´½¨Á´±í
- * @param {Í·½áµã}
+ * @description: Í·ï¿½å·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * @param {Í·ï¿½ï¿½ï¿½}
  * @return: 
  */
 void create_linklist_head(Node &head)
@@ -22,15 +22,15 @@ void create_linklist_head(Node &head)
     for (int i = 0; i < num; i++)
     {
         Node *node = new Node;
-        in(node->data, "½ÚµãÊý¾Ý");
+        in(node->data, "ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½");
         node->next = head.next;
         head.next = node;
     }
 }
 
 /**
- * @description: Î²²å·¨´´½¨Á´±í
- * @param {Í·½áµã} 
+ * @description: Î²ï¿½å·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * @param {Í·ï¿½ï¿½ï¿½} 
  * @return: 
  */
 void create_linklist_tail(Node &head)
@@ -41,7 +41,7 @@ void create_linklist_tail(Node &head)
     for (int i = 0; i < num; i++)
     {
         Node *node = new Node;
-        in(node->data, "½ÚµãÊý¾Ý");
+        in(node->data, "ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½");
         tail->next = node;
         tail = node;
     }
@@ -49,25 +49,27 @@ void create_linklist_tail(Node &head)
 }
 
 /**
- * @description: ÒÔÊý×éÎªÔªËØ´´½¨Á´±í
- * @param {Í·½áµã,Êý×é,³¤¶È} 
+ * @description: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÔªï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * @param {Í·ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½} 
  * @return: 
  */
-void create_linklist_array(Node &head,int arr[],int len){
-    Node* tail=&head;
-    for(int i=0;i<len;i++ ){
-        Node *node=new Node;
-        node->data=arr[i];
-        node->next=tail->next;
-        tail->next=node;
-        tail=node;
+void create_linklist_array(Node &head, int arr[], int len)
+{
+    Node *tail = &head;
+    for (int i = 0; i < len; i++)
+    {
+        Node *node = new Node;
+        node->data = arr[i];
+        node->next = tail->next;
+        tail->next = node;
+        tail = node;
     }
 }
 
 /**
- * @description:»ñÈ¡Á´±íÖÐµÚi¸öÔªËØ 
- * @param {Í·½áµã,i} 
- * @return: µÚi¸öÔªËØ
+ * @description:ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½iï¿½ï¿½Ôªï¿½ï¿½ 
+ * @param {Í·ï¿½ï¿½ï¿½,i} 
+ * @return: ï¿½ï¿½iï¿½ï¿½Ôªï¿½ï¿½
  */
 int get_linklist_elem(Node head, int i)
 {
@@ -81,7 +83,7 @@ int get_linklist_elem(Node head, int i)
     }
     else
     {
-        out("³¬³öÁ´±í·¶Î§");
+        out("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§");
         exit(1);
     }
 }
@@ -89,33 +91,31 @@ int get_linklist_elem(Node head, int i)
 Node merge_linklist(Node l1, Node l2)
 {
     Node l3;
-    l3.data=1;
-    l3.next=nullptr;
+    l3.data = 1;
+    l3.next = nullptr;
     Node *p1 = l1.next, *p2 = l2.next, *p3 = &l3;
     while (p1 && p2)
     {
         if (p1->data > p2->data)
         {
-            out("p3->next=p2");
             p3->next = p2;
+            p2 = p2->next;
         }
         else
         {
-            
-            out("p3->next=p1");
+
             p3->next = p1;
+            p1 = p1->next;
         }
         p3 = p3->next;
-        p1 = p1->next;
-        p2 = p2->next;
     }
     p3->next = p1 ? p2 : p1;
     return l3;
 }
 
 /**
- * @description: Êä³öÁ´±íÔªËØ
- * @param {Í·½áµã} 
+ * @description: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
+ * @param {Í·ï¿½ï¿½ï¿½} 
  * @return: 
  */
 void out_linklist(Node head)
@@ -126,18 +126,14 @@ void out_linklist(Node head)
     }
 }
 
-void link_list_main()
+void main_link_list()
 {
-    Node l1,l2;
+    Node l1, l2;
     init_linklist(l1);
     init_linklist(l2);
-    int a1[5]={1,3,5,8,9};
-    int a2[3]={2,5,7};
-    out_linklist(l1);
-    out_linklist(l2);
-    Node l3=merge_linklist(l1,l2);
-    if(l3.next==nullptr)
-    {
-        out("l3.next=null");
-    }
+    int a1[5] = {1, 3, 5, 8, 9};
+    create_linklist_array(l1,a1,5);
+    out(get_linklist_elem(l1,10));
+
+
 }

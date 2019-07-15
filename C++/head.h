@@ -8,7 +8,8 @@
 #define VNAME(value) (#value)
 using namespace std;
 
-void link_list_main();
+void main_link_list();
+void main_static_linklist();
 
 void in(int &var, string hint="");
 void in(double &var, string hint="");

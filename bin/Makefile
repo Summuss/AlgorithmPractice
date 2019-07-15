@@ -176,6 +176,33 @@ D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s:
 	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s
 .PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.s
 
+D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.obj: D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj
+
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.obj
+
+# target to build an object file
+D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj
+
+D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.i: D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.i
+
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.i
+
+# target to preprocess a source file
+D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.i:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.i
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.i
+
+D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.s: D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.s
+
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.s
+
+# target to generate assembly for a file
+D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.s:
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.s
+.PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.s
+
 D_/CodeProject/C++/AlgorithmPractice/C++/tools.obj: D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj
 
 .PHONY : D_/CodeProject/C++/AlgorithmPractice/C++/tools.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/main.obj
 	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/main.i
 	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/main.s
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.obj
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.i
+	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.s
 	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/tools.obj
 	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/tools.i
 	@echo ... D_/CodeProject/C++/AlgorithmPractice/C++/tools.s

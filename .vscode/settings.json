@@ -43,6 +43,7 @@
         "kit": "kitc --run"
         },
         "files.associations": {
-            "iostream": "cpp"
+            "iostream": "cpp",
+            "string": "cpp"
         },
 }

@@ -106,10 +106,35 @@ CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj.provides:
 CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj.provides.build: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj
 
 
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj: CMakeFiles/a.dir/flags.make
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj: CMakeFiles/a.dir/includes_CXX.rsp
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj: D:/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\a.dir\D_\CodeProject\C++\AlgorithmPractice\C++\static_linklist.cpp.obj -c D:\CodeProject\C++\AlgorithmPractice\C++\static_linklist.cpp
+
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeProject\C++\AlgorithmPractice\C++\static_linklist.cpp > CMakeFiles\a.dir\D_\CodeProject\C++\AlgorithmPractice\C++\static_linklist.cpp.i
+
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeProject\C++\AlgorithmPractice\C++\static_linklist.cpp -o CMakeFiles\a.dir\D_\CodeProject\C++\AlgorithmPractice\C++\static_linklist.cpp.s
+
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.requires:
+
+.PHONY : CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.requires
+
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.provides: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.provides.build
+.PHONY : CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.provides
+
+CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.provides.build: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj
+
+
 CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj: CMakeFiles/a.dir/flags.make
 CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj: CMakeFiles/a.dir/includes_CXX.rsp
 CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj: D:/CodeProject/C++/AlgorithmPractice/C++/tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\a.dir\D_\CodeProject\C++\AlgorithmPractice\C++\tools.cpp.obj -c D:\CodeProject\C++\AlgorithmPractice\C++\tools.cpp
 
 CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.i: cmake_force
@@ -135,6 +160,7 @@ CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj.provides
 a_OBJECTS = \
 "CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj" \
 "CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj" \
+"CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj" \
 "CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj"
 
 # External object files for target a
@@ -142,12 +168,13 @@ a_EXTERNAL_OBJECTS =
 
 a.exe: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj
 a.exe: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj
+a.exe: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj
 a.exe: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj
 a.exe: CMakeFiles/a.dir/build.make
 a.exe: CMakeFiles/a.dir/linklibs.rsp
 a.exe: CMakeFiles/a.dir/objects1.rsp
 a.exe: CMakeFiles/a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable a.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CodeProject\C++\AlgorithmPractice\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable a.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\a.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +184,7 @@ CMakeFiles/a.dir/build: a.exe
 
 CMakeFiles/a.dir/requires: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/LinkList.cpp.obj.requires
 CMakeFiles/a.dir/requires: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/main.cpp.obj.requires
+CMakeFiles/a.dir/requires: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/static_linklist.cpp.obj.requires
 CMakeFiles/a.dir/requires: CMakeFiles/a.dir/D_/CodeProject/C++/AlgorithmPractice/C++/tools.cpp.obj.requires
 
 .PHONY : CMakeFiles/a.dir/requires
